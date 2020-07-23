@@ -1,0 +1,30 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.hero-section {
+    min-height: 100vh;
+    display: grid;
+}
+
+
+.info {
+
+    margin: auto;
+}
+
+.info .card {
+    border-radius: 20px;
+}
+
+.info .card img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
