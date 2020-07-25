@@ -13,6 +13,9 @@
     display: grid;
 }
 
+.container {
+    box-shadow: 5px 15px 20px 10px #ddd;
+}
 
 .info {
 
@@ -31,12 +34,10 @@
 .content-section {
     width: 100%;
 
+
 }
 
-.latest-works {
-    text-align: center;
-    box-shadow: 5px 15px 20px 10px #ddd;
-}
+
 
 .latest-works .row {
     display: flex;
@@ -44,5 +45,14 @@
 }
 
 .latest-works .card {
+    margin: 1rem;
+}
+
+.languages {
+
+    min-height: 40vh;
+}
+
+.languages .progress {
     margin: 1rem;
 }
