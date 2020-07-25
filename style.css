@@ -28,3 +28,21 @@
     border-top-right-radius: 20px;
 }
 
+.content-section {
+    width: 100%;
+
+}
+
+.latest-works {
+    text-align: center;
+    box-shadow: 5px 15px 20px 10px #ddd;
+}
+
+.latest-works .row {
+    display: flex;
+    justify-content: center;
+}
+
+.latest-works .card {
+    margin: 1rem;
+}
