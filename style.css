@@ -56,3 +56,13 @@
 .languages .progress {
     margin: 1rem;
 }
+
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info div {
+    margin: 2rem;
+}
