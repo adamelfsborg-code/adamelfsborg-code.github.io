@@ -20,10 +20,10 @@
         <div class="hero-section">
           <div class="info">
             <div class="card" style="width: 18rem;">
-              <img src="img/profile-pick.JPG" class="card-img-top" >
+              <img src="img/profile.jpg" class="card-img-top" height="50%">
               <div class="card-body">
                 <h5 class="card-title">Hi, Im Adam Elfsborg</h5>
-                <p class="card-text">Front end developer <br>Software developer</p>
+                <p class="card-text">17 year old Programer</p>
                 <button type="button" data-toggle="modal" data-target="#exampleModalScrollable" class="btn btn-dark">Read More</button>
                 <button type="button"  class="btn btn-outline-info" onclick="window.location.href='#contact'">Contact</button>
               </div>
@@ -46,17 +46,17 @@
                     You can edit them and delete the ones your done with</p>
                 </div>
                 <div class="card-footer">
-                  <small class="text-muted">I programed this with: Django and Postgresql</small>
+                  <small class="text-muted">I created this with: Django and Postgresql</small>
                 </div>
               </div>
               <div class="card" style="width: 26rem;">
                 <img class="card-img-top" src="img/dict.png" alt="Card image cap">
                 <div class="card-body">
                   <h4 class="card-title">Dictionary API</h4>
-                  <p class="card-text">This program lets you type in a word and it will display the definition and synonyms etcetera</p>
+                  <p class="card-text">A page where you type in a word and it will display the definition and synonyms etcetera</p>
                 </div>
                 <div class="card-footer">
-                  <small class="text-muted">I programed this with: Django and a <a href="https://dictionaryapi.com/">Dictionary Api</a></small>
+                  <small class="text-muted">I created this with: Django and a <a href="https://dictionaryapi.com/">Dictionary Api</a></small>
                 </div>
               </div>
             </div>
@@ -65,10 +65,10 @@
                 <img class="card-img-top" src="img/notes.png" alt="Card image cap">
                 <div class="card-body">
                   <h4 class="card-title">School Notes</h4>
-                  <p class="card-text">This program lets me keep notes for all the school sujects I have. Where I can edit them and delete them when im done </p>
+                  <p class="card-text">A program that lets me keep notes for all the school sujects I have. Where I can edit them and delete them when im done </p>
                 </div>
                 <div class="card-footer">
-                  <small class="text-muted">I programed this with: Django and Postgresql</small>
+                  <small class="text-muted">I created this with: Django and Postgresql</small>
                 </div>
               </div>
               <div class="card" style="width: 26rem;">
@@ -78,7 +78,7 @@
                   <p class="card-text">This is a fully functional football table where you can edit how many games played,points,goals scored,goals against, wins,draws and loss a team has and it will order them with highest points first</p>
                 </div>
                 <div class="card-footer">
-                  <small class="text-muted">I programed this with: Django and Postgresql</small>
+                  <small class="text-muted">I created this with: Django and Postgresql</small>
                 </div>
               </div>
             </div>
@@ -103,8 +103,9 @@
           </div>
         </div>
         <div class="contact "id="contact">
-          <h4 class="text-center">Contact me</h4>
-          <form class="m-3">
+          <h4 class="text-center">Contact me <small class="text-muted">(not in function)</small></h4>
+       
+          <form class="m-3" method="POST" name="email">
             <div class="form-group">
               <label for="email">Email address</label>
               <input type="email" class="form-control" id="email" name="email">
@@ -114,8 +115,8 @@
               <input type="text" class="form-control" id="name" name="name" >
             </div>
             <div class="form-group">
-              <label for="Subject">Subject</label>
-              <select class="form-control" id="Subject">
+              <label for="subject">Subject</label>
+              <select class="form-control" id="subject" name="subject" >
                 <option>Hireing</option>
                 <option>Programing help</option>
                 <option>Business</option>
@@ -123,8 +124,8 @@
               </select>
             </div>
             <div class="form-group">
-              <label for="content">What would you like to say?</label>
-              <textarea class="form-control" id="content" rows="3" style="resize: none;"></textarea>
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="3" style="resize: none; "></textarea>
             </div>
             <button type="submit" class="btn btn-primary mb-4">Submit</button>
           </form>
@@ -149,10 +150,10 @@
               </button>
             </div>
             <div class="modal-body">
-              Hi Again, My name is Adam Elfsborg and Im a Software/Front end developer. 
+              Hi Again, My name is Adam Elfsborg and Im a 17 year old programer working ever day to be a software developer. 
               Born 2002 In Sweden. Started programing when I was about 15, a bit in school but mostly self taught. 
-              I started with html/css and now I also work with python and javascript.
-              For the last 2 summers I've worked as a software developer at a Company.
+              I started with html/css and now I also work with python,javascript and sql.
+              For the last 2 summers I've had a summer job where I've worked as a software developer.
 
             </div>
           </div>
